@@ -1,0 +1,39 @@
+
+.pop-up {
+    position: fixed;
+    width: 300px;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    z-index: 10;
+  }
+  
+  .pop-up-header {
+    padding: 10px;
+    background-color: rgb(136, 189, 206);
+    text-align: center;
+    border-radius: 15px;
+  }
+  
+  .pop-up-content {
+    padding: 20px;
+    text-align: center;
+
+  }
+  
+  .close-button {
+    float: right;
+    font-size: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .close-button:hover {
+      color: red;
+  }
+  
